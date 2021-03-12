@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LLewe2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ewe.ewe2"
+    tools:ignore="MissingDefaultResource">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="871dp">
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="600dp"
+        android:baselineAligned="false">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="0dp"
+            android:layout_height="1621dp"
+            android:layout_weight="1">
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="4dp"
+                android:text="7.3 Bisherige Anschlussanschrift - falls abweichend von AG" />
+
+            <EditText
+                android:id="@+id/eT_strasse"
+                android:layout_width="336dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="111dp"
+                android:ems="10"
+                android:hint="Straße"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/eT_plz"
+                android:layout_width="134dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="162dp"
+                android:ems="10"
+                android:hint="PLZ"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/eT_ort"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="163dp"
+                android:layout_marginEnd="11dp"
+                android:ems="10"
+                android:hint="Ort"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="214dp"
+                android:text="7.4 Bisherige Anschlussarten( Anz eintragen)" />
+
+            <EditText
+                android:id="@+id/eT_eineLeitung"
+                android:layout_width="171dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="242dp"
+                android:ems="10"
+                android:hint="Festnetz eine Leitung"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/et_zweiLeitungen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="190dp"
+                android:layout_marginTop="243dp"
+                android:ems="10"
+                android:hint="Festnetz zwei Leitungen"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/eT_dsl"
+                android:layout_width="176dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="290dp"
+                android:ems="10"
+                android:hint="DSL"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/et_andere"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="190dp"
+                android:layout_marginTop="291dp"
+                android:ems="10"
+                android:hint="Andere"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="348dp"
+                android:text="7.5 Rufnummern" />
+
+            <CheckBox
+                android:id="@+id/checkBox14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="379dp"
+                android:text="Folgende Rufnummern sollen übernommen werden:" />
+
+            <EditText
+                android:id="@+id/et_Vorwahl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="425dp"
+                android:ems="10"
+                android:hint="Vorwahl"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/eT_nr1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="-1dp"
+                android:layout_marginTop="485dp"
+                android:ems="10"
+                android:hint="Nummer1"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/eT_nr6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="210dp"
+                android:layout_marginTop="484dp"
+                android:ems="10"
+                android:hint="Nummer6"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/eT_nr2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="533dp"
+                android:ems="10"
+                android:hint="Nummer2"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/eT_nr3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="-1dp"
+                android:layout_marginTop="581dp"
+                android:ems="10"
+                android:hint="Nummer3"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/eT_nr8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="210dp"
+                android:layout_marginTop="579dp"
+                android:ems="10"
+                android:hint="Nummer8"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/eT_nr4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="1dp"
+                android:layout_marginBottom="946dp"
+                android:ems="10"
+                android:hint="Nummer4"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/eT_nr9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="212dp"
+                android:layout_marginBottom="948dp"
+                android:ems="10"
+                android:hint="Nummer9"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/et_nr5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="673dp"
+                android:ems="10"
+                android:hint="Nummer5"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/eT_nr10"
+                android:layout_width="189dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="211dp"
+                android:layout_marginTop="674dp"
+                android:layout_marginEnd="0dp"
+                android:ems="10"
+                android:hint="Nummer10"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/eT_nr7"
+                android:layout_width="188dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="212dp"
+                android:layout_marginTop="533dp"
+                android:layout_marginEnd="0dp"
+                android:ems="10"
+                android:hint="Nummer7"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/eT_weitereNrn"
+                android:layout_width="384dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="729dp"
+                android:ems="10"
+                android:hint="Weitere Rufnummern beantragen(Anz)"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="784dp"
+                android:text="8. EMail-Adresse" />
+
+            <EditText
+                android:id="@+id/eT_email"
+                android:layout_width="358dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginBottom="761dp"
+                android:ems="10"
+                android:hint="Wunsch-Email-Adresse"
+                android:inputType="textPersonName" />
+
+            <CheckBox
+                android:id="@+id/checkBox15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="4dp"
+                android:layout_marginBottom="715dp"
+                android:text="Weitere Wunsch-Email-Adressen gemäß Beiplatt" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="6dp"
+                android:layout_marginBottom="675dp"
+                android:text="9. Rechnungsversand und Einzelverbindungsnachweis" />
+
+            <CheckBox
+                android:id="@+id/checkBox16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="9dp"
+                android:layout_marginBottom="631dp"
+                android:text="kostenlose Benachrichtigungsemail" />
+
+            <CheckBox
+                android:id="@+id/checkBox17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="4dp"
+                android:layout_marginBottom="540dp"
+                android:text="Rechnung pre Post(ggf. kostenplichtig)" />
+
+            <CheckBox
+                android:id="@+id/checkBox18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="499dp"
+                android:text="abweichende Rechnungsanschrift gem. Beiblatt" />
+
+            <EditText
+                android:id="@+id/eT_rechnungsEmail"
+                android:layout_width="356dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="13dp"
+                android:layout_marginBottom="584dp"
+                android:ems="10"
+                android:hint="Rechnungs-Email-Adresse"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="9dp"
+                android:layout_marginBottom="463dp"
+                android:text="9.2 Einzelverbindungsnachweis(EVN)" />
+
+            <CheckBox
+                android:id="@+id/checkBox19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginBottom="425dp"
+                android:text="kein EVN" />
+
+            <CheckBox
+                android:id="@+id/checkBox20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="145dp"
+                android:layout_marginBottom="419dp"
+                android:text="EVN mit ungekürzten Rufnummern" />
+
+            <CheckBox
+                android:id="@+id/checkBox21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="11dp"
+                android:layout_marginBottom="380dp"
+                android:text="EVN mit Kürzung der Rufnummern um die letzten drei Ziffern" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="299dp"
+                android:text="Hinweis: Bei der Verwendung eines EVN versichert der Kunde, dass alle zum Haus- halt gehörenden Mitbenutzer über die Erstellung des Einzelverbindungsnachweises informiert sind und zukünftige unverzüglich informiert werden." />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="53dp"
+                android:ems="10"
+                android:hint="Name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName13"
+                android:layout_width="197dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="54dp"
+                android:layout_marginEnd="-10dp"
+                android:ems="10"
+                android:hint="Vorname"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/eT_hnr_ewe1"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="112dp"
+                android:layout_marginEnd="9dp"
+                android:ems="10"
+                android:hint="Nr"
+                android:inputType="textPersonName" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="6dp"
+                android:layout_marginBottom="576dp"
+                android:text="14. Willenserklärungen zur Datenverarbeitung und Marketing" />
+
+            <ImageView
+                android:id="@+id/ewe"
+                android:layout_width="149dp"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="239dp"
+                android:layout_marginTop="25dp"
+                android:contentDescription="@string/ewelogo"
+                android:src="@drawable/ewe" />
+
+            <EditText
+                android:id="@+id/eT_kreditinstitut"
+                android:layout_width="372dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginBottom="607dp"
+                android:ems="10"
+                android:hint="Kreditinstitut"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/eT_iban"
+                android:layout_width="383dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="9dp"
+                android:layout_marginBottom="660dp"
+                android:ems="10"
+                android:hint="IBAN"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/eT_kontoInhaber"
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginBottom="716dp"
+                android:ems="10"
+                android:hint="Kontoinhaber(in) falls abweichend"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="11dp"
+                android:layout_marginBottom="775dp"
+                android:text="13. Bankverbindung" />
+
+            <EditText
+                android:id="@+id/eT_abwEintrag"
+                android:layout_width="311dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="456dp"
+                android:ems="10"
+                android:hint="Bezeichnung des Eintrags"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/eT_faxWerber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="766dp"
+                android:ems="10"
+                android:hint="Rufnummer des Werbers"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/eT_vorNachName"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="721dp"
+                android:layout_marginEnd="0dp"
+                android:ems="10"
+                android:hint="Vor,- Nachname bzw. Firma"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="702dp"
+                android:text="12. Kunden werben Kunden" />
+
+            <CheckBox
+                android:id="@+id/checkBox33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="668dp"
+                android:text="Ich wünsche die ständige Unterdrückung meiner Rufnummer" />
+
+            <CheckBox
+                android:id="@+id/checkBox34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="632dp"
+                android:text="Ich wünsche die Standardmäßige Übermittlung meiner Rufnummer" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="613dp"
+                android:text="11. Übermittlung der Rufnummer" />
+
+            <CheckBox
+                android:id="@+id/checkBox32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="576dp"
+                android:text="Sperre der Inverssuche ( Auskunft auf Basis einer Rufnummer)" />
+
+            <CheckBox
+                android:id="@+id/checkBox24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="128dp"
+                android:layout_marginTop="405dp"
+                android:text="abweichender Eintrag des Names:" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="331dp"
+                android:text="Art des Eintrags: " />
+
+            <CheckBox
+                android:id="@+id/checkBox29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="128dp"
+                android:layout_marginTop="367dp"
+                android:text="gekürzt(Name, Rufnummer)" />
+
+            <CheckBox
+                android:id="@+id/checkBox31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="165dp"
+                android:text="Ich wünsche keinen Eintrag in Verzeichnisse" />
+
+            <CheckBox
+                android:id="@+id/checkBox30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="131dp"
+                android:layout_marginTop="324dp"
+                android:text="Standard( Name, Vorname, Rufnummer, Adresse)" />
+
+            <CheckBox
+                android:id="@+id/checkBox28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="126dp"
+                android:layout_marginTop="284dp"
+                android:text="Auskunftsdienste" />
+
+            <CheckBox
+                android:id="@+id/checkBox25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="127dp"
+                android:layout_marginTop="245dp"
+                android:text="elektronische Verzeichnnise" />
+
+            <CheckBox
+                android:id="@+id/checkBox27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="128dp"
+                android:layout_marginTop="207dp"
+                android:text="gedruckte Verzeichnisse" />
+
+            <CheckBox
+                android:id="@+id/checkBox26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="204dp"
+                android:text="Eintrag in:" />
+
+            <ImageView
+                android:id="@+id/auftraggigaglas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="26dp"
+                android:layout_marginEnd="0dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/auftraggigaglas" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="82dp"
+                android:text="10. Telefonbucheintrag und Auskunftsdienste" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="111dp"
+                android:layout_marginEnd="0dp"
+                android:text="Hinweis: Sofern Sie keine Angaben machen, erhalten Sie einen Standardeintrag gem. Angaben in 3." />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="487dp"
+                android:text="Willenserklärungen zu Datenverarbeitung und Marketing Die folgenden Erklärungen gelten, falls nicht Rechtsvorschriften dies bereits erlauben oder anordnen. Sie sind für den Vertragsschluss nicht erforderlich und können jederzeit widerrufen werden. Bitte beachten Sie auch die „Hinweise zum Datenschutz“." />
+
+            <CheckBox
+                android:id="@+id/checkBox22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="6dp"
+                android:layout_marginBottom="283dp"
+                android:text="Ja , ich möchte über aktuelle Produkte und Angebote der EWE VERTRIEB GmbH (Strom, Erdgas, Wärme, Dienstleistungen zur Energieeffizienz, Smart Home) und der EWE TEL GmbH (Festnetz, Internet, Mobilfunk) informiert und zur individuellen Kundenberatung, Information über Veranstaltungen und für Kun- denzufriedenheitsumfragen kontaktiert werden. Zu diesem Zweck dürfen beide Unternehmen meine Daten – und zwar Name, Anschrift, Kontaktdaten, Produkte und Vertragslaufzeiten – austauschen und verarbeiten, um per Telefon, E-Mail und SMS mit mir Kontakt aufzunehmen. Ich kann meine Zustimmung jederzeit widerrufen." />
+
+            <CheckBox
+                android:id="@+id/checkBox23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="1dp"
+                android:layout_marginBottom="165dp"
+                android:text="Ja , ich bin damit einverstanden, dass die EWE TEL GmbH meine Verkehrsdaten zur bedarfsgerechten Gestaltung meiner Telekommunikationsprodukte verwen- det und um feststellen zu können, ob mein Tarif zu meinem Nutzungsverhalten passt. Der Zeitraum für die Verwendung der Verkehrsdaten beträgt maximal sechs Monate." />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="2dp"
+                android:text="Weiter" />
+
+            <EditText
+                android:id="@+id/editTextPhone14"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="511dp"
+                android:layout_marginEnd="200dp"
+                android:ems="10"
+                android:hint="Rufnummer"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/editTextPhone15"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="511dp"
+                android:layout_marginEnd="0dp"
+                android:ems="10"
+                android:hint="Faxnummer"
+                android:inputType="phone" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="398dp"
+                android:layout_height="43dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="3dp"
+                android:layout_marginBottom="124dp"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/bt_save3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="17dp"
+                android:layout_marginBottom="75dp"
+                android:layout_weight="0.5"
+                android:text="Unterschrift Speichern" />
+
+            <Button
+                android:id="@+id/bt_clear3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="55dp"
+                android:layout_marginBottom="76dp"
+                android:layout_weight="0.5"
+                android:text="Löschen" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+    <LinearLayout
+        android:id="@+id/unterschrift_LL"
+        android:layout_width="match_parent"
+        android:layout_height="394dp"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+
+</LinearLayout>

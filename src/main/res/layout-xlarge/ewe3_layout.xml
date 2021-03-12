@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/eT_Vorname"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ewe.ewe3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="871dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GLASFASERAUFTRAG"
+                android:textSize="40dp" />
+
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="15. Datenübermittlung an Auskunfteien Die EWE TEL GmbH übermittelt im Rahmen dieses Vertragsverhältnisses erhobene personenbezogene Daten über die Beantragung, die Durchführung und Beendigung dieser Geschäftsbeziehung sowie Daten über nicht vertragsgemäßes Verhalten oder betrügerisches Verhalten an die SCHUFA oder eine andere Auskunftei (InFoScore Consumer Data GmbH, Creditreform Oldenburg Bolte KG). Rechtsgrundlagen dieser Übermittlungen sind Artikel 6 Absatz 1 Buchstabe b und Artikel 6 Absatz 1 Buchstabe f der Datenschutz-Grundverordnung (DS-GVO). Übermittlungen auf der Grundlage von Artikel 6 Absatz 1 Buchstabe f DS-GVO dürfen nur erfolgen, soweit dies zur Wah- rung berechtigter Interessen der EWE TEL GmbH oder Dritter erforderlich ist und nicht die Interessen oder Grundrechte und Grundfreiheiten der betroffenen Person, die den Schutz personenbezogener Daten erfordern, überwiegen. Die Auskunfteien verarbeiten die erhaltenen Daten und verwenden sie auch zum Zwecke der Pro- filbildung (Scoring), um ihren Vertragspartnern im Europäischen Wirtschaftsraum und in der Schweiz sowie ggf. weiteren Drittländern (sofern zu diesen ein Ange- messenheitsbeschluss der Europäischen Kommission besteht) Informationen unter anderem zur Beurteilung der Kreditwürdigkeit von natürlichen Personen zu geben. Nähere Informationen zur Tätigkeit der Auskunfteien entnehmen Sie bitte den Hin- weisen zum Datenschutz." />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="16. Vertragsschluss und Vertragslaufzeit \n16.1 Voraussetzung für die Realisierung und den Betrieb des beauftragten EWE Glasfa- ser-Pakets ist, dass an der gewünschten Anschlussanschrift ein Glasfaser-Hausan- schluss vorhanden ist. \n16.2 Der Vertrag kommt zu Stande, wenn wir Ihren Auftrag, den Sie mit diesem Formular erteilen, ausdrücklich annehmen oder Ihren Anschluss auftragsgemäß freischalten.\n16.3 Bei Beauftragung und Änderung eines Glasfaser-Pakets von EWE und bei Aktionen hat der Vertrag eine anfängliche Laufzeit von 24 Monaten, wenn nichts anderes vereinbart ist. Der Vertrag verlängert sich am Ende seiner Laufzeit jeweils automa- tisch um 12 Monate, wenn er nicht fristgerecht gekündigt wird. Der Vertrag kann mit einer Frist von einem Monat zum Ende eines jeden Werktags, frühestens jedoch zum Ende der Laufzeit, gekündigt werden." />
+
+            <CheckBox
+                android:id="@+id/checkBox40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12-Monats-Vertrag: wie zuvor, der Vertrag hat jedoch eine anfängliche Laufzeit von 12 Monaten. Das monatliche Entgelt erhöht sich um den in der Preisliste Glas- faser verzeichneten Betrag für 12-Monats-Verträge" />
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="16.4 Beauftragt der Kunde einen Wechsel von einem der in Abschnitt 6.2 genannten Glasfaser-Pakete, das nach dem 19.07.2020 beauftragt wurde, zu einem neuen Glasfaser-Paket, dann gelten sämtliche Vereinbarungen in Abschnitt 16.3, jedoch mit folgender Abweichung: Die anfängliche Laufzeit des Vertrages über das neue Glasfaser-Paket entspricht der aktuellen Laufzeit des bisherigen Glasfaser-Pakets. \n16.5 Im Falle eines gemäß Abschnitt 1 beauftragten Umzuges gilt Folgendes: die EWE TEL GmbH erbringt die bisher erbrachte vertragliche Leistung am Ort des neuen Anschlusses (Abschnitt 5.1), wenn die EWE TEL GmbH dort die bisherige vertrag- liche Leistung anbietet. Die Laufzeit des Vertrages bleibt in diesem Fall unverändert; Abschnitt 16.2 gilt nicht. Kann die EWE TEL GmbH die vertragliche Leistung am Ort des neuen Anschlusses nicht erbringen, ist der Kunde zur Kündigung des Vertrages unter Einhaltung einer Kündigungsfrist von drei Monaten zum Ende eines Kalen- dermonats berechtigt. Auf das in der Preisliste Glasfaser ausgewiesene Entgelt für Umzüge wird hingewiesen.\nAbweichend von dem vorstehenden Absatz möchte ich, dass die EWE TEL GmbH mir am Ort des neuen Anschlusses (Abschnitt 5.1) neue vertragliche Leistungen mit den in diesem Formular vereinbarten Bedingungen einschließlich der Verein- barungen zur neuen Laufzeit gemäß Abschnitt\n 16.3 zur Verfügung stellt. Mir ist bewusst, dass damit der Vertrag im Falle des Zustandekommens gemäß Abschnitt 16.3 eine neue anfängliche Laufzeit von 24 Monaten haben wird.\n16.6 Geht die Laufzeit einer Option über die Laufzeit des von ihr betroffenen Vertrags (Hauptvertrag) hinaus, so verlängert sich die Laufzeit des Hauptvertrags automa- tisch um den entsprechenden Zeitraum. \n17 AGB, Unterschrift Für den Auftrag geltend die Allgemeinen Geschäftsbedingungen (AGB) der EWE TEL GmbH für Telekommunikations-, Online-, Daten- und Mediendienstlei- stungen, die Leistungsbeschreibung der EWE TEL GmbH für Telefon-, Internet- und Mediendienstleistungen und die Preisliste Glasfaser. Diese Dokumente sind bei der EWE TEL GmbH, EWE und ihren Vertriebspartnern sowie auf der Interne- tseite von EWE (www.ewe.de) einzusehen.\nHinweis: Zu Ihrem Widerrufsrecht bei einem Vertragsschluss außerhalb von Geschäftsräumen oder als Fernabsatzvertrag sehen Sie bitte die beiliegenden Infor- mationen über Ihr Widerrufsrecht." />
+
+            <LinearLayout
+                android:id="@+id/unterschrift_LLL1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bt_save3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="Speichern" />
+
+                <Button
+                    android:id="@+id/bt_clear3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="Löschen" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fertig" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/unterschrift_LL"
+        android:layout_width="match_parent"
+        android:layout_height="394dp"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".osnatel.osnatelHausanschluss">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="787dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Auftrag Glasfaser-Hausanschluss"
+                android:textSize="35dp" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.Anschrift des Kunden" />
+
+            <EditText
+                android:id="@+id/HA_vorNachname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Vor und Nachname"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/HA_vertragsnummer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Vertragsnummer"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/HA_strasse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Straße"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Hausnummer"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/HA_plz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Postleitzahl"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/HA_ort"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Ort"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/HA_telefon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Telefonnummer"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/HA_telefax"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Telefax"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/HA_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/HA_gebDatum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Geburtsdatum"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2.Anschlussort" />
+
+            <EditText
+                android:id="@+id/HA_plz2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Postleitzahl"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/HA_ort2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Ort"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/HA_ortsteil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Ortsteil"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/HA_strasse2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Straße"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Hausnummer"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Terminwunsch(unverbindlich)" />
+
+            <CheckBox
+                android:id="@+id/checkBox37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="schnellstmögkich" />
+
+            <CheckBox
+                android:id="@+id/checkBox38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ab Datum:" />
+
+            <EditText
+                android:id="@+id/HA_datum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Datum des Anschlusstages"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Installation und unentgeltliche Gebrauchsüberlassung Der Kunde beauftragt die Installation eines Glasfaser-Hausanschlusses und dessen Überlassung zum unentgeltlichen Gebrauch an dem zuvor genannten Anschlussort. Der Anbieter installiert den Glasfaser-Hausanschluss an dem im Auftrag angege- benen Ort. Hierzu beauftragt er in der Regel ein anerkanntes Fachunternehmen. Bei Neubauten bzw. Umbauten sind ein maßstabsgerechter Lageplan (Katasterplan, Bebauungsplan o. Ä.) und ein Grundrissplan, in denen das Gebäude, die Lage des Anschlussraumes, der Hausübergabepunkt und die Telefon-Dose(n) (Teilnehmeran- schlusseinheit(en), TAE) eingezeichnet sind, vom Kunden beizufügen." />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5.Hausanschlusspreis Für diesen Auftrag gilt der nachfolgend genannte Hausanschlusspreis. Im Haus- anschlusspreis inbegriffen ist die Verlegung einer Glasfaserleitung bis zum Hausübergabepunkt." />
+
+            <EditText
+                android:id="@+id/HA_preis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Hausanschlusspreis"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. Wenn Sie nicht der Eigentümer des Grundstücks sind, obliegt es Ihnen, den Eigen- tümer des Grundstücks rechtzeitig über den Bau des Glasfaser-Hausanschlusses zu informieren. Für den Fall, dass Sie weitergehende Bau- und Installationsmaßnahmen beauf- tragen, müssen Sie sicherstellen, dass das Einverständnis des Hauseigentümers vorliegt. \n  7. Willenserklärungen zu Datenverarbeitung und Marketing Die folgenden Erklärungen gelten, falls nicht Rechtsvorschriften dies bereits erlau- ben oder anordnen. Sie sind für den Vertragsschluss nicht erforderlich und kön- nen jederzeit widerrufen werden. Bitte beachten Sie auch die „Hinweise zum Datenschutz“." />
+
+            <CheckBox
+                android:id="@+id/checkBox39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ja , ich möchte über aktuelle Produkte und Angebote der EWE VERTRIEB GmbH (Strom, Erdgas, Wärme, Dienstleistungen zur Energieeffizienz, Smart Home) und der EWE TEL GmbH (Festnetz, Internet, Mobilfunk) informiert und zur individu- ellen Kundenberatung, Information über Veranstaltungen und für Kundenzu- friedenheitsumfragen kontaktiert werden. Zu diesem Zweck dürfen beide Unter- nehmen meine Daten – und zwar Name, Anschrift, Kontaktdaten, Produkte und Vertragslaufzeiten – austauschen und verarbeiten, um per Telefon, E-Mail und SMS mit mir Kontakt aufzunehmen. Ich kann meine Zustimmung jederzeit widerrufen" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8. Datenübermittlung an Auskunfteien Die EWE TEL GmbH übermittelt im Rahmen dieses Vertragsverhältnisses erhobene personenbezogene Daten über die Beantragung, die Durchführung und Beendigung dieser Geschäftsbeziehung sowie Daten über nicht vertragsgemäßes Verhalten oder betrügerisches Verhalten an die SCHUFA oder eine andere Auskunftei (InFoS- core Consumer Data GmbH, Creditreform Oldenburg Bolte KG). Rechtsgrundlagen dieser Übermittlungen sind Artikel 6 Absatz 1 Buchstabe b und Artikel 6 Absatz 1 Buchstabe f der Datenschutz-Grundverordnung (DS-GVO). Übermittlungen auf der Grundlage von Artikel 6 Absatz 1 Buchstabe f DS-GVO dürfen nur erfolgen, soweit dies zur Wahrung berechtigter Interessen der EWE TEL GmbH oder Dritter erforder- lich ist und nicht die Interessen oder Grundrechte und Grundfreiheiten der betrof- fenen Person, die den Schutz personenbezogener Daten erfordern, überwiegen. Die Auskunfteien verarbeiten die erhaltenen Daten und verwenden sie auch zum Zwe- cke der Profilbildung (Scoring), um ihren Vertragspartnern im Europäischen Wirt- schaftsraum und in der Schweiz sowie ggf. weiteren Drittländern (sofern zu diesen ein Angemessenheitsbeschluss der Europäischen Kommission besteht) Informatio- nen unter anderem zur Beurteilung der Kreditwürdigkeit von natürlichen Personen zu geben. Nähere Informationen zur Tätigkeit der Auskunfteien entnehmen Sie bitte den Hinweisen zum Datenschutz. \n9. Vertragsschluss und Vertragslaufzeit \n9.1 Der Vertrag kommt zustande, wenn wir Ihren Auftrag, den Sie mit diesem Formular erteilen, ausdrücklich annehmen oder mit der Installation des Glasfaser-Hausan- schlusses beginnen. \n9.2 Der Vertrag über die Überlassung des Glasfaser-Hausanschlusses zum unentgeltli- chen Gebrauch läuft auf unbestimmte Zeit. Er kann mit einer Frist von drei Monaten von jeder Vertragspartei gekündigt werden. Das Recht zur außerordentlichen Kündi- gung bleibt unberührt. Eine Kündigung hat mindestens in Textform zu erfolgen. \n10. AGB, Unterschrift Für den Auftrag gelten die Allgemeinen Geschäftsbedingungen (AGB) der EWE TEL GmbH für Telekommunikations-, Online-, Daten- und Mediendienstleistungen und die Leistungsbeschreibung der EWE TEL GmbH für die Installation und Bereit- stellung eines Glasfaser-Hausanschlusses. Diese Dokumente sind bei der EWE TEL GmbH, EWE und ihren Vertriebspartnern sowie auf der Internetseite von EWE (www.ewe.de) einzusehen. Hinweis: Zu Ihrem Widerrufsrecht bei einem Vertragsschluss außerhalb von Geschäftsräumen oder als Fernabsatzvertrag sehen Sie bitte die beiliegenden Infor- mationen über Ihr Widerrufsrecht ein." />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <LinearLayout
+                android:id="@+id/unterschrift_LLL2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bt_save4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="Speichern" />
+
+                <Button
+                    android:id="@+id/bt_clear4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="Löschen" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fertig" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/unterschrift_LL"
+        android:layout_width="match_parent"
+        android:layout_height="394dp"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+</LinearLayout>

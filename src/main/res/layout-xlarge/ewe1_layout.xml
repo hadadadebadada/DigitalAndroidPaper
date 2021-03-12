@@ -1,0 +1,1145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LLewe1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ewe.ewe1"
+    tools:ignore="MissingDefaultResource">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="600dp"
+        android:baselineAligned="false">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="0dp"
+            android:layout_height="1621dp"
+            android:layout_weight="1">
+
+
+            <EditText
+                android:id="@+id/editTextDate3"
+                android:layout_width="262dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="219dp"
+                android:layout_marginEnd="7dp"
+                android:ems="10"
+                android:hint="Sperrung des alten Anschlusses"
+                android:inputType="date" />
+
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+
+                android:layout_marginStart="186dp"
+                android:layout_marginTop="65dp"
+                android:entries="@array/vertragsart"
+                app:layout_constraintEnd_toStartOf="@+id/editText" />
+
+            <ImageView
+                android:id="@+id/ewe"
+                android:layout_width="149dp"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="74dp"
+                android:layout_marginTop="7dp"
+                android:contentDescription="@string/ewelogo"
+                android:src="@drawable/ewe" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="145dp"
+                android:layout_marginEnd="10dp"
+                android:layout_toStartOf="@+id/editText8"
+                android:text="@string/_2_terminwunsch_unverbindlich" />
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="167dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="185dp"
+                android:layout_marginEnd="233dp"
+                android:entries="@array/terminwunsch" />
+
+            <EditText
+                android:id="@+id/editText8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="153dp"
+                android:layout_marginEnd="14dp"
+                android:layout_toStartOf="@+id/spinner2"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/terminwunsch"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="264dp"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="338dp"
+                android:text="@string/_3_auftraggeber_in" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="359dp"
+                android:entries="@array/herrfraufirma">
+
+            </Spinner>
+
+            <EditText
+                android:id="@+id/editText9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="404dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/name"
+                android:inputType="textMultiLine" />
+
+            <EditText
+                android:id="@+id/editText10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ewe"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="401dp"
+                android:layout_toStartOf="@+id/spinner"
+                android:layout_toEndOf="@+id/ewe"
+                android:autofillHints=""
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/vorname"
+                android:inputType="textMultiLine" />
+
+            <EditText
+                android:id="@+id/editText17"
+                android:layout_width="189dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editText9"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="457dp"
+                android:autofillHints=""
+                android:ems="10"
+
+                android:gravity="start|top"
+                android:hint="@string/stra_e"
+                android:inputType="textMultiLine" />
+
+            <EditText
+                android:id="@+id/editText18"
+                android:layout_width="148dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editText10"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="455dp"
+
+                android:layout_marginEnd="1dp"
+                android:layout_toStartOf="@id/editText17"
+                android:autofillHints=""
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/geburtsdatum"
+                android:inputType="textMultiLine" />
+
+            <EditText
+                android:id="@+id/editText19"
+                android:layout_width="113dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="9dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="506dp"
+                android:layout_marginEnd="278dp"
+                android:layout_toStartOf="@+id/editText20"
+                android:autofillHints=""
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/postleitzahl"
+                android:inputType="textMultiLine" />
+
+            <EditText
+                android:id="@+id/editText20"
+                android:layout_width="272dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="507dp"
+                android:layout_marginEnd="3dp"
+                android:autofillHints=""
+
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/stadt"
+                android:inputType="textMultiLine" />
+
+            <EditText
+                android:id="@+id/editText21"
+                android:layout_width="427dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="556dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/persoenliches_kennwort"
+                android:inputType="textMultiLine" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="611dp"
+                android:text="@string/hinweis_bei_geschaeftskunden_bitte_eine_kope_des_handesregisterauszuges_beilegen" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="664dp"
+                android:text="@string/_4_ansprechpartner_in_f_r_r_ckfragen" />
+
+            <EditText
+                android:id="@+id/editText22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="704dp"
+                android:layout_marginEnd="7dp"
+                android:layout_toStartOf="@+id/editText26"
+                android:autofillHints=""
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/name"
+                android:inputType="textMultiLine" />
+
+            <EditText
+                android:id="@+id/editText24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="762dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/telefon"
+                android:inputType="textMultiLine" />
+
+            <EditText
+                android:id="@+id/editText25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="763dp"
+                android:layout_marginEnd="2dp"
+                android:layout_toEndOf="@+id/editText24"
+                android:autofillHints=""
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/mobiltelefon"
+                android:inputType="textMultiLine" />
+
+            <EditText
+                android:id="@+id/editText26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="700dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/vorname"
+                android:inputType="textMultiLine" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="726dp"
+                android:text="@string/_5_angeben_zur_gewuenschten_anschlussanschrift" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="231dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="35dp"
+                android:layout_marginBottom="700dp"
+                android:text="@string/_5_1_anschlussanschrift" />
+
+            <EditText
+                android:id="@+id/editText29"
+                android:layout_width="315dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="13dp"
+                android:layout_marginEnd="72dp"
+                android:layout_marginBottom="637dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/stra_e"
+                android:inputType="textMultiLine" />
+
+            <EditText
+                android:id="@+id/editText30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="14dp"
+                android:layout_marginBottom="581dp"
+                android:layout_toStartOf="@+id/editText31"
+                android:autofillHints=""
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/postleitzahl"
+                android:inputType="textMultiLine" />
+
+            <EditText
+                android:id="@+id/editText31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="6dp"
+                android:layout_marginBottom="579dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/stadt"
+                android:inputType="textMultiLine" />
+
+            <EditText
+                android:id="@+id/editText28"
+                android:layout_width="431dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="14dp"
+                android:layout_marginBottom="757dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/email_kontakt"
+                android:inputType="textEmailAddress" />
+
+            <Spinner
+                android:id="@+id/spinner3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginBottom="228dp"
+                android:entries="@array/ONT" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="2dp"
+                android:layout_marginBottom="254dp"
+                android:text="5.3 GIGAglasanschluss" />
+
+            <EditText
+                android:id="@+id/editText23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="6dp"
+                android:layout_marginBottom="177dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Lage der GF-TA"
+                android:inputType="textMultiLine" />
+
+            <EditText
+                android:id="@+id/editText27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="178dp"
+                android:layout_toEndOf="@+id/editText23"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Home-ID"
+                android:inputType="textMultiLine" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="151dp"
+                android:text="5.4 Vormieter(in)" />
+
+            <EditText
+                android:id="@+id/editText32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="68dp"
+                android:ems="10"
+                android:hint="Vor- und Nachname bzw. Firma mit Geschäftsform"
+                android:inputType="time" />
+
+            <EditText
+                android:id="@+id/editText33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="5dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Telefonnummer"
+                android:inputType="textMultiLine" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="4dp"
+                android:layout_marginBottom="546dp"
+                android:text="5.2  Eigentümer(in) des Grundstückes – falls abweichend von Auftraggeber(in)" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="-2dp"
+                android:layout_marginBottom="496dp"
+                android:ems="10"
+                android:hint="Name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="210dp"
+                android:layout_marginBottom="344dp"
+                android:ems="10"
+                android:hint="Telefonnummer"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName3"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="-1dp"
+                android:layout_marginBottom="444dp"
+                android:ems="10"
+                android:hint="Straße"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName4"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="351dp"
+                android:layout_marginBottom="445dp"
+                android:ems="10"
+                android:hint="Nr"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName5"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="2dp"
+                android:layout_marginBottom="391dp"
+                android:ems="10"
+                android:hint="PLZ"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName6"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="103dp"
+                android:layout_marginBottom="392dp"
+                android:ems="10"
+                android:hint="Ort"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="1dp"
+                android:layout_marginBottom="344dp"
+                android:ems="10"
+                android:hint="Mobilnummer"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName8"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="4dp"
+                android:layout_marginBottom="294dp"
+                android:ems="10"
+                android:hint="E-Mail-Adresse"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextDate2"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="219dp"
+                android:ems="10"
+                android:hint="Umzugsdatum"
+                android:inputType="date" />
+
+            <EditText
+                android:id="@+id/editTextDate4"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="269dp"
+                android:ems="10"
+                android:hint="Ende der Vertragsbindung beim jetzigen Anbieter"
+                android:inputType="date" />
+
+            <EditText
+                android:id="@+id/eT_hnr2"
+                android:layout_width="46dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="342dp"
+                android:layout_marginBottom="637dp"
+                android:ems="10"
+                android:hint="Nr"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/eT_hnr"
+                android:layout_width="42dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="204dp"
+                android:layout_marginTop="458dp"
+                android:ems="10"
+                android:hint="Nr"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="199dp"
+                android:layout_marginBottom="494dp"
+                android:ems="10"
+                android:hint="Vorname"
+                android:inputType="textPersonName" />
+
+            <CheckBox
+                android:id="@+id/checkBox46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="17dp"
+                android:layout_marginBottom="114dp"
+                android:text="Ich übernehme den Anschluss von meinem Vormieter" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="64dp"
+                android:text="1. Auftragsart" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="92dp"
+                android:layout_marginEnd="14dp"
+                android:ems="10"
+                android:hint="Vertragsnummer"
+                android:inputType="textPersonName" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="341dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="3dp"
+                android:layout_marginBottom="357dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="668dp"
+                android:layout_marginEnd="2dp"
+                android:text="weiteres Zubehör bzw, Services" />
+
+            <ImageView
+                android:id="@+id/auftraggigaglas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="26dp"
+                android:layout_marginEnd="0dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/auftraggigaglas" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="111dp"
+                android:layout_marginEnd="-6dp"
+                android:text="6. Produktauswahl" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="160dp"
+                android:layout_marginEnd="-6dp"
+                android:text="6.1 Teilnahme an Aktionen" />
+
+            <EditText
+                android:id="@+id/editText35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="195dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Aktion"
+                android:inputType="textMultiLine" />
+
+            <EditText
+                android:id="@+id/editText36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="194dp"
+                android:layout_marginEnd="5dp"
+                android:layout_toStartOf="@+id/editText35"
+                android:layout_toEndOf="@+id/editText35"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Bonuscode"
+                android:inputType="textMultiLine" />
+
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="249dp"
+                android:layout_marginEnd="-4dp"
+                android:text="6.2 Produkt Gigaglas, Festnetz und TV" />
+
+
+            <Spinner
+                android:id="@+id/spinner4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="279dp"
+                android:entries="@array/produktgigaglas" />
+
+            <Spinner
+                android:id="@+id/spinner8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+
+
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="38dp"
+                android:layout_marginTop="631dp"
+                android:entries="@array/Handwareoptionen" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="600dp"
+                android:layout_marginEnd="0dp"
+                android:text="6.4 Handware Komponenten und Anschlussmontage" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="313dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="304dp"
+                android:layout_marginEnd="85dp"
+                android:text="6.3 Optionen\n TV-Dienstleistungen" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="423dp"
+                android:layout_marginEnd="-3dp"
+                android:text="Telefonoptionen" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="526dp"
+                android:layout_marginEnd="0dp"
+                android:text="Sicherheitsoptionen" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="708dp"
+                android:layout_marginEnd="-2dp"
+                android:text="6.5 Zusatzdienste Festnetzanschluss" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="68dp"
+                android:layout_marginBottom="847dp"
+                android:text="Ich beauftrage die Sperrung folgender Rufnummern" />
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="314dp"
+                android:layout_marginBottom="793dp"
+                android:text="018" />
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="137dp"
+                android:layout_marginBottom="794dp"
+                android:text="0137" />
+
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="69dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="227dp"
+                android:layout_marginBottom="795dp"
+                android:text="0900" />
+
+            <CheckBox
+                android:id="@+id/checkBox6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginBottom="793dp"
+                android:text="019" />
+
+            <CheckBox
+                android:id="@+id/checkBox7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="344dp"
+                android:layout_marginBottom="756dp"
+                android:text="012" />
+
+            <CheckBox
+                android:id="@+id/checkBox8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="236dp"
+                android:layout_marginBottom="754dp"
+                android:text="118" />
+
+            <CheckBox
+                android:id="@+id/checkBox9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginBottom="730dp"
+                android:text="Auslandsgespräche(VW:00)" />
+
+            <CheckBox
+                android:id="@+id/checkBox10"
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="268dp"
+                android:layout_marginBottom="719dp"
+                android:text="R-Gespräche" />
+
+            <CheckBox
+                android:id="@+id/checkBox11"
+                android:layout_width="382dp"
+                android:layout_height="67dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="17dp"
+                android:layout_marginBottom="644dp"
+                android:text="Sonstige Sperren und Einschränkungen laut Beiblatt" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="193dp"
+                android:layout_marginBottom="547dp"
+                android:text="7. Rufnummern und bisheriger Anschluss" />
+
+            <Spinner
+                android:id="@+id/spinner9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="518dp"
+                android:entries="@array/anschluss" />
+
+            <EditText
+                android:id="@+id/netzbetreiberName"
+                android:layout_width="439dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="6dp"
+                android:layout_marginBottom="466dp"
+                android:ems="10"
+                android:hint="Name des Netzbetreibers"
+                android:inputType="textPersonName" />
+
+            <CheckBox
+                android:id="@+id/checkBox12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="669dp"
+                android:layout_marginEnd="254dp"
+                android:text="Installationservice" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="-2dp"
+                android:layout_marginBottom="8dp"
+                android:text="Weiter" />
+
+            <CheckBox
+                android:id="@+id/checkBox35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="354dp"
+                android:layout_marginEnd="203dp"
+                android:text="TV Home (inkl. HD-Receiver)" />
+
+            <CheckBox
+                android:id="@+id/checkBox36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="213dp"
+                android:layout_marginTop="351dp"
+                android:text="TV App plus" />
+
+            <CheckBox
+                android:id="@+id/checkBox41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="390dp"
+                android:layout_marginEnd="69dp"
+                android:text="HD plus Paket" />
+
+            <CheckBox
+                android:id="@+id/checkBox42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="390dp"
+                android:layout_marginEnd="278dp"
+                android:text="2. HD-Receiver" />
+
+            <CheckBox
+                android:id="@+id/checkBox43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="445dp"
+                android:layout_marginEnd="28dp"
+                android:text="Auslandsflatrate 2" />
+
+            <CheckBox
+                android:id="@+id/checkBox44"
+                android:layout_width="182dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="445dp"
+                android:layout_marginEnd="218dp"
+                android:text="Auslandsflatrate 1	" />
+
+            <CheckBox
+                android:id="@+id/checkBox45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="136dp"
+                android:layout_marginTop="481dp"
+                android:text="Mobilfunk-Flatrate		" />
+
+            <CheckBox
+                android:id="@+id/checkBox47"
+                android:layout_width="154dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="551dp"
+                android:layout_marginEnd="246dp"
+                android:text="Sicherheitspaket 3PC" />
+
+            <CheckBox
+                android:id="@+id/checkBox48"
+                android:layout_width="179dp"
+                android:layout_height="42dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="549dp"
+                android:layout_marginEnd="63dp"
+                android:text="Sicherheitspaket 3 PC + 2 Android" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="265dp"
+                android:layout_marginBottom="410dp"
+                android:text="GPS-Location: " />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+</LinearLayout>

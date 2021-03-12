@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">DigitalPaper</string>
+    <string name="push_the_button">PUSH THE BUTTON</string>
+    <string name="bitte_text_eingeben">Bitte Text eingeben:</string>
+    <string name="eingabe_hier">EINGABE HIER</string>
+    <string name="eingabealda">EINGABEALDA</string>
+    <string name="machneeingabejunge">MACHNEEINGABEJUNGE:</string>
+    <string name="auftrag_gigaglas">Auftrag GIGAglas</string>
+    <string name="auftragsart">Auftragsart</string>
+    <string name="neuauftrag">Neuauftrag</string>
+    <string name="nderungsauftrag">Änderungsauftrag</string>
+    <string name="umzug">Umzug</string>
+    <string name="kunden_vertrags_nr">Kunden-/ Vertrags-Nr.:</string>
+    <string name="pdferstellen">PDFerstellen</string>
+    <string name="ewelogo">ewelogo</string>
+    <string name="vorname">Vorname</string>
+    <string name="nachname">Nachname</string>
+    <string name="_1_auftragsart">1.Auftragsart</string>
+    <string name="_2_terminwunsch_unverbindlich">2. Terminwunsch (unverbindlich)</string>
+    <string name="terminwunsch">Terminwunsch</string>
+    <string name="_3_auftraggeber_in">3.Auftraggeber(in)</string>
+    <string name="geburtsdatum">Geburtsdatum</string>
+    <string name="firma_hr_nr">Firma/ HR-Nr.</string>
+    <string name="_4_ansprechpartner_in_f_r_r_ckfragen">4.Ansprechpartner(in) für Rückfragen</string>
+    <string name="name">Name</string>
+    <string name="hinweis_handelsregisterauszug_beilegen">HINWEIS: Handelsregisterauszug beilegen</string>
+    <string name="stadt">Stadt</string>
+    <string name="textview">TextView</string>
+    <string name="testtext">testtext</string>
+    <string name="datum">Datum</string>
+    <string name="firmenname">Firmenname</string>
+    <string name="stra_e">Straße</string>
+    <string name="postleitzahl">Postleitzahl</string>
+    <string name="persoenliches_kennwort">persoenliches Kennwort</string>
+    <string name="hinweis_bei_geschaeftskunden_bitte_eine_kope_des_handesregisterauszuges_beilegen">Hinweis: Bei Geschaeftskunden bitte eine Kope des Handesregisterauszuges beilegen.</string>
+    <string name="telefon">Telefon</string>
+    <string name="mobiltelefon">Mobiltelefon</string>
+    <string name="email_kontakt">EMail-Kontakt</string>
+    <string name="_5_angeben_zur_gewuenschten_anschlussanschrift">5.Angeben zur gewuenschten Anschlussanschrift</string>
+    <string name="_5_1_anschlussanschrift">5.1 Anschlussanschrift</string>
+    <string name="todo">TODO</string>
+    <string name="osnatel">OsnaTel</string>
+    <string name="ewe">EWE</string>
+    <string name="auftraggigaglas3">Auftraggigaglas3</string>
+    <string name="anbieterwechselauftrag">Anbieterwechselauftrag</string>
+    <string name="auftraggigaglas1">AuftragGigaglas1</string>
+    <string name="auftraggigaglas2">Auftraggigaglas2</string>
+    <string name="sepa_lastschrift_mandat">SEPA-Lastschrift-Mandat</string>
+    <string name="glasfaser_hausanschluss">Glasfaser-Hausanschluss</string>
+    <string name="ewe2">ewe2</string>
+    <string name="ewe3">ewe3</string>
+
+    <string-array name="vertragsart">
+        <item>Änderungsauftrag</item>
+        <item>Neuauftrag</item>
+        <item>Umzug</item>
+    </string-array>
+
+    <string-array name="herrfraufirma">
+        <item>Frau</item>
+        <item>Herr</item>
+
+
+    </string-array>
+
+    <string-array name="terminwunsch">
+        <item>schnellstmoeglich</item>
+        <item>ab Datum</item>
+
+
+    </string-array>
+
+    <string-array name="ONT">
+        <item>Ein Glasfaseranschluss ist bereits vorhanden</item>
+        <item> Einen Glasfaseranschluss habe ich bereits beauftragt</item>
+
+    </string-array>
+
+    <string-array name="produktgigaglas">
+        <item>Glasfaser 75</item>
+        <item>Glasfaser 150</item>
+        <item>Glasfaser 300</item>
+        <item>Glasfaser 500</item>
+        <item>Glasfaser 1000</item>
+
+
+    </string-array>
+
+
+    <string-array name="Internetoptionen">
+        <item>Sicherheitspaket(3PC)</item>
+        <item>Sicherheitspaket(3PC + 2 Android) </item>
+    </string-array>
+
+    <string-array name="Handwareoptionen">
+        <item>Glasfaserbox</item>
+        <item>Eigenesgerät</item>
+
+
+    </string-array>
+
+    <string-array name="anschluss">
+        <item>Ich habe bereits einen neuen Anschluss</item>
+        <item>Ich habe bereits einen Anschluss bei folgendem Netzbetreiber</item>
+        <item>Ich habe bereits einen Anschluss bei der Telekom</item>
+    </string-array>
+
+
+    <string-array name="Sperrnummern">
+        <item></item>
+
+
+    </string-array>
+
+
+</resources>

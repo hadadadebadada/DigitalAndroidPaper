@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".osnatel.osnatelSepa">
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Angaben zum Vertragspartner" />
+
+    <EditText
+        android:id="@+id/eT_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/eT_Vorname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Vorname"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/eT_Strasse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Straße"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/eT_Hausnummer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Hausnummer"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/eT_Plz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Postleitzahl"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/eT_Ort2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ort"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Angaben zum Kontoinhaber" />
+
+    <EditText
+        android:id="@+id/eT_Kreditinstitut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Vor- und Nachname des Kontoinhabers"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/eT_Iban"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Name des Kreditinstituts"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/eT_Datum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="IBAN"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/unterschrift_LLL1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_save3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Speichern" />
+
+        <Button
+            android:id="@+id/bt_clear3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Löschen" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/unterschrift_LL1"
+
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fertig" />
+
+</LinearLayout>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/eT_Vorname"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".osnatel.osnatelAnbieterwechsel">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="871dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Anbieterwechselauftrag"
+                android:textSize="40dp" />
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Angaben zum Auftraggeber" />
+
+            <EditText
+                android:id="@+id/eT_vorherigerAnbieter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Vorheriger Anbieter"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/eT_NameFirma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Nachname bzw. Firma"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/eT_vorname1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Vorname"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/eT_Strasse1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Straße"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/eT_Hausnummer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Hausnummer"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/eT_Plz1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Postleitzahl"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/eT_Ort1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Ort"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rufnummermitnahme" />
+
+            <EditText
+                android:id="@+id/eT_Ortskennzahl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Vorwahl"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Telefonnummer1"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/editTextPhone2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Telefonnummer2"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/editTextPhone3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Telefonnummer3"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/editTextPhone4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Telefonnummer4"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/editTextPhone5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Telefonnummer5"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/editTextPhone6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Telefonnummer6"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/editTextPhone7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Telefonnummer7"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/editTextPhone8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Telefonnummer8"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/editTextPhone9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Telefonnummer9"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/editTextPhone10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Durchwahl-RN"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/editTextPhone11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Abfragestelle"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/editTextPhone12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Rufnummernblock von"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/editTextPhone13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Rufnummernblock bis"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/eT_Datum1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Datum"
+                android:inputType="textPersonName" />
+
+            <LinearLayout
+                android:id="@+id/unterschrift_LLL1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bt_save3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="Speichern" />
+
+                <Button
+                    android:id="@+id/bt_clear3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="Löschen" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fertig" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/unterschrift_LL"
+        android:layout_width="match_parent"
+        android:layout_height="394dp"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
